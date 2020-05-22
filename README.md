@@ -15,10 +15,8 @@ There are four major steps included in the showcase code [2].
 - Linear clustering using LCuts [1].
 - Biofilm reconstrcution with geometrical models.
 
-The code is currenly private, but it will be public soon!
-
 ## Code Usage
-Soon..
+The code is currenly private, but it will be public soon!
 
 ## License
 
