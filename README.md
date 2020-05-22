@@ -24,4 +24,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 Thanks for the support from Virginia Image and Video Analysis (VIVA) Lab.
-Thanks for the data and biological/chemical support from the Cell imaging at Nano scale Lab, University of Viriginia.
+
+Thanks for the data and biological/chemical knowledge support from the Cell imaging at Nano scale Lab, University of Viriginia.
