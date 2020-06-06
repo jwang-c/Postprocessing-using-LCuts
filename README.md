@@ -17,7 +17,9 @@ There are four major steps included in the showcase code.
 - Biofilm reconstrcution with geometrical models.
 
 ## Run the code
-Just run the [demo.m](demo.m) file. Detailed instructions can be found in each function.
+Just run the [demo.m](demo.m) file. 
+
+The [post_processing_using_lcuts.m](post_processing_using_lcuts.m) file introduces the whole algorithm. Other detailed instructions can be found in each function.
 
 Currently, most parameters are chosen based on the image and bacterial cell information. Please look out for later updates for further information.
 
