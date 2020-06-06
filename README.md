@@ -1,7 +1,7 @@
 # Postprocessing-using-LCuts
 LCuts: Linear Clustering of Bacteria using Recursive Graph Cuts. This repo will showcase the post-processing procedure on under-segmented cluster using LCuts for 3D bacterial dataset.
 
-## Related paper
+## Related papers
 Please cite the following papers if you are referring the code. And please let me know if you have any questions.
 Email: jiewang@virginia.edu
 
@@ -16,13 +16,17 @@ There are four major steps included in the showcase code.
 - Linear clustering using LCuts.
 - Biofilm reconstrcution with geometrical models.
 
-## Code Usage
+## Run the code
+Just run the demo.m file. Detailed instructions can be found in each function.
+Currently, most parameters are chosen based on the image and bacterial cell information. Please look out for later updates for further information.
+A Matlab version of R2018a or higher might be required.
+
 The code is currenly private, but it will be public soon!
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-Thanks for the support from Virginia Image and Video Analysis (VIVA) Lab.
+Thanks for the support from Virginia Image and Video Analysis (VIVA) Lab, University of Virginia.
 
-Thanks for the data and biological/chemical knowledge support from the Cell imaging at Nano scale Lab, University of Viriginia.
+Thanks for the data and biological/chemical knowledge support from the Cell imaging at Nano scale Lab, University of Virginia.
