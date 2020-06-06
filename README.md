@@ -17,8 +17,10 @@ There are four major steps included in the showcase code.
 - Biofilm reconstrcution with geometrical models.
 
 ## Run the code
-Just run the demo.m file. Detailed instructions can be found in each function.
+Just run the [demo.m](demo.m)file. Detailed instructions can be found in each function.
+
 Currently, most parameters are chosen based on the image and bacterial cell information. Please look out for later updates for further information.
+
 A Matlab version of R2018a or higher might be required.
 
 The code is currenly private, but it will be public soon!
