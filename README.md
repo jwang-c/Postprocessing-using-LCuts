@@ -19,13 +19,13 @@ There are four major steps included in the main function.
 ## Run the code
 Just run the [demo.m](demo.m) file. 
 
-The [post_processing_using_lcuts.m](post_processing_using_lcuts.m) file introduces the whole algorithm. Other detailed instructions can be found in each function.
+The [post_processing_using_lcuts.m](post_processing_using_lcuts.p) file introduces the whole algorithm. Other detailed instructions can be found in each function.
 
 Currently, parameters are chosen based on the image and bacterial cell information. Please look out for later updates for further information.
 
 A Matlab version of R2018a or higher might be required.
 
-The source code is currenly private, but it will be public soon!
+The details of the source code are currenly private, but they will be public soon!
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
