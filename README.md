@@ -10,7 +10,7 @@ Email: jiewang@virginia.edu
 [2] Zhang M, Zhang J, Wang Y, Wang J, Achimovich AM, Acton ST, Gahlmann A. Non-Invasive Single-Cell Morphometry and Tracking in Living Bacterial Biofilms. Submitting soon.
 
 ## Code description
-There are four major steps included in the showcase code.
+There are four major steps included in the main function.
 - Data filtering for selecting the region of interest.
 - Point cloud data generation by constrained medial axis extraction.
 - Linear clustering using LCuts.
@@ -21,11 +21,11 @@ Just run the [demo.m](demo.m) file.
 
 The [post_processing_using_lcuts.m](post_processing_using_lcuts.m) file introduces the whole algorithm. Other detailed instructions can be found in each function.
 
-Currently, most parameters are chosen based on the image and bacterial cell information. Please look out for later updates for further information.
+Currently, parameters are chosen based on the image and bacterial cell information. Please look out for later updates for further information.
 
 A Matlab version of R2018a or higher might be required.
 
-The code is currenly private, but it will be public soon!
+The source code is currenly private, but it will be public soon!
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
