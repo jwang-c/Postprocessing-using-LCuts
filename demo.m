@@ -37,7 +37,7 @@ V0 = imrotate(V0_temp, 90);
 V0 = flip(V0, 1);
 %% run main function
 close all;
-sizeLimit = [4/3*pi*10*4*4, 4/3*pi*45*4*4,2,6,45];% adjustable parameter or based on cell information
+sizeLimit = [4/3*pi*10*4*4, 4/3*pi*45*4*4,2,6,45];% adjustable parameter or based on cell information, the current choices are estimates
 % [volume_lowerbound, volume_upperbound, r_min, r_max, L]
 sigmaD2 = 5; % adjustable parameter to control the rate of exponential decay of similarity measure on point distance
 sigmaT2 = 0.2; % adjustable parameter to control the rate of exponential decay of similarity measure on point angle feature
@@ -47,7 +47,7 @@ showI = 1;
 % 1.undersegmented clusters (ROIs) that are selected for postprocessing, 
 % 2.reconstructed ROIs by fitting geometrical models after LCuts
 [post_V,V_needpost,post_radii,post_radiidx] = post_processing_using_lcuts(V,V0,sizeLimit,sigmaD2,sigmaT2,showI);
-% Outputs: post_V - postproessed result
-%          V_needpost - clusters that need post processing in the image
+% Outputs: post_V - postproecssed result (3D image)
+%          V_needpost - clusters that need post processing in the image (3D image)
 %          post_radii, post_radidx are inscribed spheres radii and index for the point 
 %pcode('support functions')
