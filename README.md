@@ -8,6 +8,7 @@ Email: jiewang@virginia.edu
 [1] Wang J, Batabyal T, Zhang M, Zhang J, Aziz A, Gahlmann A, Acton ST. Lcuts: Linear Clustering of Bacteria Using Recursive Graph Cuts. In 2019 IEEE International Conference on Image Processing (ICIP) 2019 Sep 22 (pp. 1575-1579). IEEE.
 
 [2] Zhang M, Zhang J, Wang Y, Wang J, Achimovich AM, Acton ST, Gahlmann A. Non-Invasive Single-Cell Morphometry and Tracking in Living Bacterial Biofilms. Submitting soon.
+
 For other codes related to [2], please see [BCM3D](https://github.com/GahlmannLab/BCM3D).
 
 ## Code description
