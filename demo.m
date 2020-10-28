@@ -18,7 +18,7 @@
 % Biofilms. [BioRxiv preprint]
 
 % Jie Wang, University of Virginia, VIVA lab
-% Last update: Oct-10-2020
+% Last update: Oct-28-2020
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% load data
 addpath('support functions')
@@ -46,8 +46,9 @@ showI = 1;
 % Two figures will be produced if showI = 1: 
 % 1.undersegmented clusters (ROIs) that are selected for postprocessing, 
 % 2.reconstructed ROIs by fitting geometrical models after LCuts
-[post_V,V_needpost,post_radii,post_radiidx] = post_processing_using_lcuts(V,V0,sizeLimit,sigmaD2,sigmaT2,showI);
+[post_V,V_needpost,post_radii,post_radiidx,V_noneedforcut] = post_processing_using_lcuts(V,V0,sizeLimit,sigmaD2,sigmaT2,showI);
 % Outputs: post_V - postproecssed result (3D image)
 %          V_needpost - clusters that need post processing in the image (3D image)
 %          post_radii, post_radidx are inscribed spheres radii and index for the point 
+%          V_noneedforcut - segments that do not need post processing
 
